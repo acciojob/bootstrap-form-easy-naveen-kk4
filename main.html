@@ -14,17 +14,17 @@
 		<div class="d-flex justify-content-between flex-wrap">
 		<div class="mb-3 flex-fill px-2">
     <label for="first-name-input" class="form-label">First Name</label>
-    <input type="text" class="form-control border border-danger" id="first-name-input" aria-describedby="emailHelp">
+    <input type="text" class="form-control border border-danger" id="first-name-input" aria-describedby="emailHelp" required>
     <div id="emailHelp" class="form-text text-danger">First name required!</div>
   </div>
   <div class="mb-3 flex-fill px-2">
     <label for="last-name-input" class="form-label">Last Name</label>
-    <input type="text" class="form-control border border-danger" id="last-name-input">
+    <input type="text" class="form-control border border-danger" id="last-name-input" required>
 	  <div id="emailHelp" class="form-text text-danger">Last name required!</div>
   </div>
   <div class="mb-3 flex-fill">
     <label for="email-input" class="form-label">Email Address</label>
-    <input type="email" class="form-control border border-danger" id="email-input">
+    <input type="email" class="form-control border border-danger" id="email-input" required>
 	  <div id="emailHelp" class="form-text text-danger">Email required!</div>
   </div>
 			</div>
@@ -33,14 +33,14 @@
 	
   <div class="mb-3 flex-fill px-2">
     <label for="college-input" class="form-label">College</label>
-    <input type="text" class="form-control border border-danger" id="college-input">
+    <input type="text" class="form-control border border-danger" id="college-input" required>
 	  <div id="emailHelp" class="form-text text-danger">Please provide a valid college</div>
   </div>
   <div class="mb-3 flex-fill px-2">
     <label for= "grad-year-select" class="form-label">Graduation Year</label>
 	  <div>
 		 
-	  <select class="lh-4 px-2 py-2 w-100 border rounded border-danger"  name="grad-years" id="grad-year-select">
+	  <select class="lh-4 px-2 py-2 w-100 border rounded border-danger form-select"  name="grad-years" id="grad-year-select">
     <option value="volvo">Choose...</option>
     <option value="saab">2020</option>
     <option value="opel">2021</option>
@@ -53,14 +53,14 @@
   </div>
   <div class="mb-3 flex-fill">
     <label for="roll-no-input" class="form-label">Roll No.</label>
-    <input type="text" class="form-control border border-danger" id="roll-no-input">
+    <input type="text" class="form-control border border-danger" id="roll-no-input" required>
 	  <div id="emailHelp" class="form-text text-danger">Please provide a valid Roll no.</div>
   </div>
 	</div>	
   
 	
 	<div class="mb-3 form-check text-danger">
-    <input type="checkbox" class="form-check-input border border-danger" id="conditions-checkbox">
+    <input type="checkbox" class="form-check-input border border-danger" id="conditions-checkbox" required>
     <label class="form-check-label" for="conditions-checkbox">Agree to terms and conditions</label>
        <div id="checkHelp" class="form-text text-danger">You must agree before submitting</div>
 	</div>
